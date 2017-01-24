@@ -5,9 +5,8 @@
 class marathon_consul::service {
 
   service { $marathon_consul::service_name:
-    ensure    => running,
-    enable    => true,
-    hasstatus => false,
-    require   => File[$marathon_consul::init_path],
+    ensure  => running,
+    enable  => true,
+    require => File[$marathon_consul::init_path],
   }
 }
