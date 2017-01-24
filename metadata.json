@@ -1,5 +1,5 @@
 {
-  "name": "jensendw/marathon-consul",
+  "name": "jensendw/marathon_consul",
   "version": "0.0.1",
   "author": "Daniel Jensen",
   "summary": "Module for installing the allegro marathon-consul bridge",
@@ -15,13 +15,13 @@
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "7",
+        "7"
       ]
     },
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "7",
+        "7"
       ]
     }
   ],
