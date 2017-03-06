@@ -7,7 +7,7 @@ class marathon_consul::params {
   $package_name                   = 'marathon-consul'
   $download_url_base              = 'https://github.com/allegro/marathon-consul/releases/download/v'
   $download_extension             = 'tar.gz'
-  $version                        = '1.1.0'
+  $version                        = '1.2.1'
   $architecture                   = 'linux_amd64'
   $config_mode                    = '0660'
   $conf_dir                       = "/etc/${package_name}"
